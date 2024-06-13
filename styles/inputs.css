@@ -1,0 +1,37 @@
+.form__inputs{
+    display: flex;
+    
+    width: 100%;
+
+    grid-template-areas: 
+    "input-dropdown input-dropdown"
+    "input-range input-range";
+}
+
+.form__input {
+    margin: .5em 0;
+    padding: .5em;
+    border-radius: 5px;
+}
+
+.inputs-details{
+    width: 100%;
+}
+
+.input-dropdown,
+.input-range {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-dropdown select,
+input[type="text"]{
+    margin: .5em 0;
+    padding: .5em;
+    border-radius: 5px;
+    border: 1px solid var(--light-gray-colour);    
+}
+
+label{
+    font-weight: bold;
+}
