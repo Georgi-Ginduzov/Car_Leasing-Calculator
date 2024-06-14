@@ -12,7 +12,7 @@
 :root{
     --max-width: 1080px;
     font-family: Arial, Helvetica, sans-serif;
-    --dark-gray-colour: rgba(238, 238, 238, 1);
+    --lighter-gray-colour: rgb(202, 202, 202);
     --light-gray-colour: rgba(208, 208, 208, 1);
     --blue-colour: rgba(52, 115, 246, 1);
 }

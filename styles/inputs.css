@@ -1,11 +1,9 @@
 .form__inputs{
     display: flex;
-    
     width: 100%;
+    padding-bottom: 1em;
+    border-bottom: 3px solid var(--lighter-gray-colour);
 
-    grid-template-areas: 
-    "input-dropdown input-dropdown"
-    "input-range input-range";
 }
 
 .form__input {
