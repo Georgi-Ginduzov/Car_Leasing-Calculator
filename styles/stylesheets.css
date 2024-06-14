@@ -1,6 +1,7 @@
 @import url(/styles/calculator.css);
 @import url(/styles/inputs.css);
 @import url(/styles/outputs.css);
+@import url(/styles/responsive.css);
 
 *{
     margin: 0;

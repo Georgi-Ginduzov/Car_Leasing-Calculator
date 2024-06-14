@@ -1,0 +1,45 @@
+@media(max-width: 840px) {
+    .container__form {
+        width: 70%;
+    }
+
+    
+}
+
+@media(max-width: 730px) {
+    .container__form {
+        width: 80%;
+    }
+
+    
+}
+
+@media(max-width: 650px) {
+    .container__form {
+        width: 90%;
+    }
+}
+
+@media(max-width: 570px) {
+    .form__inputs {
+        flex-direction: column;
+    }
+
+    input[type="text"]{
+        margin-bottom: 2.5em;
+    }    
+
+    .outputs__container {
+        flex-direction: column;
+        justify-content: flex-start;
+
+        width: 100%;
+    }
+
+    .container-details {
+        border: none;
+
+        padding-left: 0;
+        width: 100%;
+    }
+}
