@@ -7,15 +7,21 @@ document.querySelector('.form__inputs').addEventListener('input', function(event
             updateCarType(value);
             break;
         case 'car_text_value':
-        case 'car_value':
+            syncTextToRange('car_range_value', value);
+        case 'car_range_value':
+                
+            syncRangeToText
+            ('car_text_value', value);
             updateCarValue(value);
             break;
         case 'lease_period':
             updateLeasePeriod(value);
             break;
         case 'down_payment_text':
-        case 'down_payment':
-            updateDownPayment(value);
+            syncTextToRange('down_range_payment', value);
+        case 'down_range_payment':
+            updateDownPayment(value);    
+            syncRangeToText('down_payment_text', value);
             break;
         default:
             break;
